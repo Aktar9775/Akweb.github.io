@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Small web</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<style>
+section{
+  padding-top: 4%;
+  padding-bottom: 4%;
+ }
+ 
+@media screen and ( max-width: 700px){
+  header{
+  min-height:500px;
+   }
+ }
+
+
+</style>
+<body>
+  <!--header---->
+<header>
+    <nav class="nav-wrapper grey darken-4">
+    <div class="container">
+
+      <a class="brand-logo">LOGO</a>
+
+      <a class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons ">menu</i></a>
+      <ul class="right hide-on-med-and-down ">
+        <li><a href="#photo">Photo</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="btn-floating btn-small pink darken-2 tooltipped" data-tooltip="Instagram">
+          <i class="fa fa-instagram"></i>
+        </a></li>
+        <li><a href="#" class="btn-floating btn-small indigo darken-2  tooltipped" data-tooltip="Facebook">
+          <i class="fa fa-facebook"></i>
+        </a></li>
+        <li><a href="#" class="btn-floating btn-small blue darken-2 tooltipped" data-tooltip="Twitter">
+          <i class="fa fa-twitter"></i> 
+        </a></li>
+         <li><a href="#" class="btn-floating btn-small green darken-2 tooltipped" data-tooltip="Whatsapp">
+          <i class="fa fa-whatsapp"></i> 
+        </a></li>
+      </ul>
+      <ul class="sidenav gray lighten-2 " id="mobile-menu">  
+        <li><a href="#">Photo</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="image/hd2.jpg"> 
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/hd1.jpg"> 
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/hd5.jpg"> 
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="image/hd9.jpg"> <!-- random image -->
+        <div class="caption top-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+</div> 
+</header>
+
+
+
+<!--photo--->
+<section class="container section scrollspy" id="photo">
+  <div class="row">
+    <div class="col s12 l4">
+      <img src="image\hd3.jpg" class="materialboxed responsive-img"> 
+    </div>
+    <div class="col s12 l6 offset-l1">
+      <h2 class="indigo-text text-darken-4">Portraits</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 l4 push-l7 offset-l1">
+      <img src="image\hd2.jpg" class="responsive-img materialboxed"> 
+    </div>
+    <div class="col s12 l6 pull-l4 right-align ">
+      <h2 class="indigo-text text-darken-4">Portraits</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna </p>
+    </div>
+  </div><div class="row">
+    <div class="col s12 l4 ">
+      <img src="image\hd6.jpg" class="responsive-img materialboxed"> 
+    </div>
+    <div class="col s12 l6 offset-l1">
+      <h2 class="indigo-text text-darken-4">Portraits</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna </p>
+    </div>
+  </div>
+</section>
+
+<!---parallax---->
+
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="image\hd9.jpg" class="responsive-img">
+  </div>
+</div>
+<!----Services---->
+<section class="container section scrollspy" id= "services">
+  <div class="row">
+    <div class="col s12 l4">
+      <h2 class="indigo-text text-darken-4">What I do..</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna ali</p>
+    </div>
+   <div class="col s12 l6 offset-l2">
+     <ul class="tabs">
+       <li class="tab col s6">
+         <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+       </li>
+
+       <li class="tab col s6">
+         <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+       </li>
+     </ul>
+     <div class="col  s12" id="photography">
+       <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       </p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       </p>
+     </div>
+     <div class="col  s12" id="editing">
+       <p class="flow-text indigo-text text-darken-4">EDITING</p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       </p>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       </p>
+     </div>
+   </div>
+
+  </div>
+</section>
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="image\hd9.jpg" class="responsive-img">
+  </div>
+</div>
+
+  <!-- contact from-->
+<section class="section-container scrollspy" id="contact">
+<div class="row">
+  <div class="col s12 l5">
+    <h2 class="indigo-text text-darken-4">Get In touch</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   </p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   </p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   </p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   </p>
+  </div>
+
+
+  <div class="col s12 l4 offset-l2">
+    <form action="">
+      <div class="input-field">
+        <i class="material-icons prefix">mail</i>
+        <input type="email" id="email">
+        <label>Your Email</label>
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">message</i>
+        <input type="text" id="message">
+        <label>Your Message</label>
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix"> date_range</i>
+        <input type="text" id="date" class="datepicker">
+        <label for="date">Choose a date</label>
+      </div>
+      <div class="input-field">
+        <p>Services required...</p>
+        <p>
+          <label>
+            <input type="checkbox">
+            <span>Photography</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox">
+            <span>Editing</span>
+          </label>
+        </p>
+      </div>
+      <div class="input-field center">
+        <button class="btn indigo waves-effect waves-grey" href="#">Submit</button>
+      </div>
+    </form>
+  </div>
+
+</div>  
+</section>
+
+  <!-- footer-->
+<footer class="page-footer grey darken-3">
+  
+<div class="container">
+  <div class="row">
+    <div class="col s12 l6">
+    <h4>About me</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <p>Lorem Ut enim ad minim veniam,
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col s12 l4 offset-l2">
+      <h4>Connect</h4>
+      <ul>
+        <li><i class="fa fa-facebook left btn-floating indigo btn-small"></i><a href="#" class="grey-text text-lighten-3">Facebook</a></li><br>
+        <li><i class="fa fa-instagram left btn-floating pink btn-small"></i><a href="#" class="grey-text text-lighten-3">Instagram</a></li><br>
+        <li><i class="fa fa-twitter left btn-floating blue btn-small"></i><a href="#" class="grey-text text-lighten-3">Twitter</a></li><br>
+        <li><i class="fa fa-whatsapp left btn-floating green btn-small"></i><a href="#" class="grey-text text-lighten-3">Whatsapp</a></li>
+
+
+      </ul>
+    </div>
+
+</div>
+</div>
+<div class="footer-copyright grey darken-4">
+  
+  <div class="container center align">&copy;2021 My web</div>
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script> 
+    $(document).ready(function() {
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker();
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider();
+  
+
+    });
+  </script>
+</body>
+</html>
